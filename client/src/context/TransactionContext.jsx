@@ -141,7 +141,7 @@ const getAllTransactions = async () => {
             setTransactionCount(transactionsCount.toNumber());
             window.location.reload();
           } else {
-            console.log("No ethereum object");
+           console.log("Ethereum is not present");
           }
         } catch (error) {
           console.log(error);
